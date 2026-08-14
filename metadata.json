@@ -1,0 +1,8 @@
+{
+  "name": "FunnelOX",
+  "description": "AI-Powered Digital Growth Company helping businesses attract qualified customers, convert leads and scale through high-converting websites, sales funnels, SEO, performance marketing and AI automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
