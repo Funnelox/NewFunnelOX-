@@ -1,6 +1,7 @@
 export type PageView = 
   | 'home'
   | 'about'
+  | 'founder'
   | 'services'
   | 'seo'
   | 'web-development'

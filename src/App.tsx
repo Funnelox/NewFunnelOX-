@@ -11,6 +11,7 @@ import { ExitIntentModal } from './components/ExitIntentModal';
 // Pages
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
+import { FounderPage } from './pages/FounderPage';
 import { ServicesPage } from './pages/ServicesPage';
 import { SEOPage } from './pages/SEOPage';
 import { WebDevPage } from './pages/WebDevPage';
@@ -37,6 +38,7 @@ const viewToPath = (view: PageView): string => {
   switch (view) {
     case 'home': return '/';
     case 'about': return '/about';
+    case 'founder': return '/founder';
     case 'services': return '/services';
     case 'web-development': return '/services/website-development';
     case 'landing-pages': return '/services/landing-pages';
@@ -68,6 +70,7 @@ const pathToView = (path: string): PageView => {
   switch (cleanPath) {
     case '/': return 'home';
     case '/about': return 'about';
+    case '/founder': return 'founder';
     case '/services': return 'services';
     case '/services/website-development': return 'web-development';
     case '/services/landing-pages': return 'landing-pages';
@@ -119,6 +122,7 @@ export default function App() {
     const pageTitles: Record<string, string> = {
       'home': 'FunnelOX — AI-Powered Digital Growth & Conversion Systems',
       'about': 'About FunnelOX — High-Performance Growth & Conversion Architects',
+      'founder': 'Shekh Meraj — Founder & CEO of FunnelOX',
       'services': 'Core Growth Services — Websites, Funnels, SEO & AI Automation | FunnelOX',
       'web-development': 'Custom High-Speed Web Development | FunnelOX',
       'landing-pages': 'High-Converting Landing Page Design | FunnelOX',
@@ -158,6 +162,8 @@ export default function App() {
             openBookCallModal={handleOpenBookCall}
           />
         );
+      case 'founder':
+        return <FounderPage openBookCallModal={handleOpenBookCall} />;
       case 'services':
         return (
           <ServicesPage

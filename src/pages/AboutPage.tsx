@@ -84,7 +84,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ setCurrentView, openBookCa
             
             <div className="space-y-4 text-sm sm:text-base text-gray-300 leading-relaxed">
               <p>
-                FunnelOX was founded by Shekh Meraj with a clear conviction: businesses shouldn't have to spend more, work harder, or manage countless disconnected tools just to grow.
+                FunnelOX was founded by Shekh Meraj with a clear conviction: businesses shouldn't have to spend more, work harder, or manage countless disconnected tools just to grow. Shekh Meraj serves as the Founder & CEO of FunnelOX and is the business owner behind the company.
               </p>
               <p>
                 We bring strategy, digital experiences, conversion systems, lead generation, and AI-powered automation together into one connected growth ecosystem — designed to turn attention into opportunity, and opportunity into sustainable growth.

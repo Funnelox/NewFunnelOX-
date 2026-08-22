@@ -81,7 +81,7 @@ export const ContactPage: React.FC = () => {
           Let’s Build Your Next <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">Growth Chapter.</span>
         </h1>
         <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
-          Have a growth challenge, new project, or partnership opportunity in mind? Connect with FunnelOX or reach out directly. Let’s understand your goals, identify the right opportunities, and build what your business needs to grow.
+          Have a growth challenge, new project, or partnership opportunity in mind? Connect with FunnelOX or reach out directly. For official FunnelOX company, contact, and business location information, use the details provided on this page. Let’s understand your goals, identify the right opportunities, and build what your business needs to grow.
         </p>
       </div>
 
